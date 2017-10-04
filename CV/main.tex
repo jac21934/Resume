@@ -1,0 +1,293 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{letter}
+\usepackage{helvet} % Default font is the helvetica postscript font
+\usepackage[margin=0.75in]{geometry} % Make the mergins 0.75in around the page
+\geometry{top=.3in} % Make the top margin smaller for more room
+\usepackage{enumitem}
+\setlength{\textwidth}{7in} % Text width of the document
+\setlength\parindent{0pt} % No indent on new paragraph (Important!)
+
+%\hyphenpenalty 10000
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\Large\bf Jacob A. Carroll}
+\vspace{1mm}
+\moveleft.5\hoffset\centerline{\large\bf Curriculum Vitae}
+
+\hrulefill
+ 
+\moveleft.5\hoffset\centerline{2887 Walls Branch Road} % Your address
+\moveleft.5\hoffset\centerline{Blacksburg, Virginia 24060}
+\moveleft.5\hoffset\centerline{(540)-532-6890 or jac21934@vt.edu}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+{\bf EDUCATION}
+
+{\sl Doctor of Philosophy,} Physics \hfill  Expected May 2019\\
+ Virginia Tech, Blacksburg, VA \hfill %GPA: 3.54
+% Concentration: Soft Condensed Matter and Biological Systems 
+
+{\sl Master of Science,} Physics \hfill  May 2016\\
+ Virginia Tech, Blacksburg, VA \hfill %GPA: 3.54 
+% Concentration: Soft Condensed Matter and Biological Systems
+
+{\sl Bachelor of Science,} Physics \hfill  December 2014\\
+ Virginia Tech, Blacksburg, VA \hfill %GPA: 3.80 
+
+{\sl Bachelor of Science,} Mathematics \hfill  December 2014\\
+ Virginia Tech, Blacksburg, VA \hfill %GPA: 3.80 
+
+%Taking this out for now, not really necessary
+%{\sl Associate of Arts and Sciences,} Science \hfill  May 2012\\
+% Lord Fairfax Community College, Middletown, VA \hfill GPA: 3.98 %, May 2012\\
+
+ \vspace{.5cm}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+
+
+{\bf TECHNICAL SKILLS} 
+
+\begin{itemize}[leftmargin=4.15cm] 
+% The \ \ \ are to move the various section
+% names to the same x-position on the page. 
+% I'm sure there's a better way
+% but I didn't bother to find it.
+
+\item[{\sl Programming Languages: \hspace{-.25cm}} ]  C\texttt{++}, Python, R, JavaScript,  OpenMP, MPI, OpenCV, OpenGL, Mathematica, \\ Octave/MatLab, \LaTeX, MySQL
+
+\item[{\sl Software: \hspace{64pt} }] PetaVision, SVN, git, Microsoft Office
+
+
+\item[{\sl Computational Methods:} ] K-means clustering; DBSCAN; Monte Carlo methods; Feed forward, Convolutional and\\ SOM neural networks
+
+\item[{\sl HPC Systems: \hspace{1.5cm}} ] Blue Waters (Cray XK6, XK7), SLURM, MOAB
+
+\item[{\sl Operating Systems: \ \ \ \ \ \ } ] Unix/Linux, Microsoft Windows, macOS 
+\end{itemize}
+
+\vspace{.5cm}
+ 
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+{\bf RESEARCH EXPERIENCE}
+
+%------------------
+%  PCSRI Internship
+%------------------
+
+ {\bf Los Alamos National Lab, Parallel Computing Summer Research Internship} \hfill Summer 2017\\
+{\sl Research Intern}
+\vspace{-.25cm}
+
+\begin{itemize}
+\item Designed and programmed highly parallelized convolutional neural networks using the C\texttt{++} neural network package PetaVision on the IBM Power8 CPU and Tesla P100 GPU for the purpose of creating sparse reconstructions of images.
+
+\item Analysed the sparse structure of these neural networks and identified a phase transition at a critical value of sparsity that allowed us to optimize the performance of these neural networks for any number of neurons.
+\end{itemize}
+
+
+%------------------
+%   Grad Researcher
+%------------------
+
+ {\bf Virginia Tech,  Center for Soft Matter and Biological Physics} \hfill Spring 2015 - Present\\
+{\sl Graduate Researcher}
+\vspace{-.25cm}
+
+
+\begin{itemize}% \itemsep -2pt
+
+\item Programmed C\texttt{++} neural network software to analyze the learning dynamics of recurrent Hebbian networks, and explored how the global activity of these networks reacts to perturbations of individual neurons. 
+
+\item Analyzed the dynamics of ligand receptor bonds in surface plasmon resonance cells using Monte Carlo methods, and highlighted the failings of a mean field analysis.
+
+\end{itemize}
+
+
+%------------------
+%   TA Position
+%------------------
+
+
+\vspace{.25cm}
+ {\bf Virginia Tech,  Department of Physics} \hfill Spring 2015 - Present\\
+{\sl Graduate Teaching Assistant}
+\vspace{-.25cm}
+
+
+\begin{itemize} %\itemsep -2pt
+\item Directed undergraduates through physics experiments designed to convey an in depth understanding of elementary physics concepts.
+\item Mentored undergraduate students and provided individual tutoring and assistance as needed to help reinforce key concepts of physics from an introductory to graduate level.
+\end{itemize}
+
+\vspace{.25cm}
+
+%---------------------
+%   Undergrad Research
+%---------------------
+
+
+\vspace{.25cm}
+ {\bf Virginia Tech,  Department of Physics} \hfill Fall 2013 - Fall 2014\\
+ {\sl Undergraduate Research Assistant}
+\vspace{-.25cm}
+
+
+\begin{itemize} %\itemsep -2pt
+\item Located and integrated applicable theorems into a newly proposed framework of quantum mechanics using research skills coupled with knowledge of high level mathematics.
+\end{itemize}
+
+\vspace{.5cm}
+
+
+%----------------------------------------------------------------------------------------
+%     Publications
+%----------------------------------------------------------------------------------------
+ 
+
+{\bf PUBLICATIONS}
+
+\begin{itemize}[leftmargin=1.1cm] %\itemsep -2pt
+\item[(2016)]  {\bf Carroll J.}, Raum M., Forsten-Williams K. and T\"{a}uber U. C. ``Ligand-receptor binding kinetics in surface plasmon resonance cells: a Monte Carlo analysis.'' {\it Physical Biology} 13: 066010.
+\end{itemize}
+
+
+\vspace{.5cm}
+
+
+%----------------------------------------------------------------------------------------
+%	Talks and Presentations
+%---------------------------------------------------------------------------------------- 
+
+{\bf TALKS \& PRESENTATIONS}
+
+ {\sl Phase Transitions in Sparsely Coded Neural Networks} (Talk and Poster) \\
+Los Alamos National Laboratory, Computing Division of Student Symposium \hfill Summer 2017
+
+
+ {\sl Avalanches in Neural Networks} (Poster)\\
+Virginia Tech, Center for Soft Matter and Biological Physics Symposium \hfill Spring 2017
+
+ {\sl Ligand-Receptor Binding Kinetics in Surface Plasmon Resonance Cells: A Monte Carlo Analysis} (Talk)\\
+% Second Molecular Biophysics Symposium, Virginia Tech \hfill Spring 2017\\
+APS March Meeting \& Virginia Tech, Second Molecular Biophysics Symposium \hfill Spring 2017
+% 2016 SESAPS Conference, University of Virginia \hfill Fall 2016
+
+ {\sl Ligand Binding Dynamics in Surface Plasmon Resonance Cells (Poster)}\\  
+Virginia Tech, Center for Soft Matter and Biological Physics Symposium  \hfill Spring 2016
+
+{\sl An Introduction to Neural Networks} (Talk)\\ 
+Virginia Tech, Condensed Matter Theory Seminar \hfill Spring 2016 
+
+%\pagebreak
+{\sl Binding kinetics of ligands in surface plasmon resonance cells} (Talk) \\ 
+ APS March Meeting \hfill Spring 2016
+% Condensed Matter Theory Seminar, Virginia Tech \hfill Fall 2015 
+
+{\sl Ligand binding kinetics in surface plasmon resonance devices: A Monte Carlo simulation analysis} (Talk)\\
+University of Virginia, Third Annual Virginia Soft Matter Workshop \hfill Fall 2015
+
+
+\vspace{.5cm}
+
+
+%----------------------------------------------------------------------------------------
+%	Honors and Awards
+%----------------------------------------------------------------------------------------
+
+
+{\bf HONORS \& AWARDS}
+
+{\it Award of Recognition for Best Poster} \hfill Awarded Summer 2017\\
+ Los Alamos National Laboratory, Computing Division of Student Symposium
+ 
+{\it First Place Short Talk Award} \hfill Awarded Spring 2017\\
+ Virginia Tech, Second Molecular Biophysics Symposium
+
+{\it Lubna R. Ijaz Scholarship} \hfill Awarded Spring 2017\\
+ Physics Education Scholarship, Virginia Tech 
+
+{\it Virginia Tech CSMB Student Travel Award} \hfill Awarded Spring 2017\\
+ Graduate Physics Award, Virginia Tech
+
+{\it William E. Hassinger Graduate Fellowship} \hfill Awarded Spring 2016\\
+ Graduate Physics Scholarship, Virginia Tech
+
+
+\vspace{.5cm}
+
+%----------------------------------------------------------------------------------------
+%	Societies and Organizations
+%----------------------------------------------------------------------------------------
+
+{\bf SOCIETIES \& ORGANIZATIONS} 
+
+%{\it Graduate Researcher:}\\
+% Center for Soft Matter and Biophysics, Virginia Tech  \hfill Spring 2016 - Present\\
+% Condensed Matter Theory Group, Virginia Tech  \hfill Spring 2015 - Present
+
+{\it President:}\\
+ Graduate Physics Students Society, Virginia Tech \hfill Summer 2015 - Present
+
+ {\it Member:}\\
+ Phi Beta Kappa, US National Honors Society \hfill Inducted Fall 2014\\
+ Sigma Pi Sigma, US National Physics Honors Society \hfill Inducted Spring 2014\\
+ Pi Mu Epsilon, US National Mathematics Honors Society \hfill Inducted Spring 2014\\
+ Phi Theta Kappa, US National Honors Society \hfill Inducted Spring 2012\\
+\setlength\parindent{0pt}
+
+ 
+
+%----------------------------------------------------------------------------------------
+%{\bf HOBBIES}
+%
+%
+%{\sl Game Boy }
+%
+%{\sl Financial Research} \hfill  Summer 2014
+%\begin{itemize} %\itemsep -2pt
+%\item Wrote automated software to create and fill MySQL database with high dimensional stock %options data.
+%\item Analyzed this high dimensional data with algorithms and methods such as DBSCAN, %k-means clustering, and feed forward and SOM neural networks.
+%\end{itemize}
+
+{\bf VOLUNTEER WORK}
+
+{\bf Virginia Tech, Department of Physics} \hfill Spring 2013 - Fall 2014 \\ 
+{\sl Student Representative} 
+
+\vspace{-.25cm}
+
+\begin{itemize} \itemsep -2pt
+\item Guided prospective students around the Virginia Tech campus, and provided them with information and advice on academic life as a physics major. 
+\end{itemize}
+
+{\bf Virginia Tech, Department of Physics} \hfill Fall 2012\\
+{\sl Physics Outreach Demonstrator} 
+\vspace{-.25cm}
+
+\begin{itemize} \itemsep -2pt
+\item Set up and ran physics demonstrations for students in High Schools and Elementary Schools, while explaining the concepts behind the demonstrations and encouraging the students to interact the models and experiments. 
+\end{itemize}
+
+
+\end{document}
